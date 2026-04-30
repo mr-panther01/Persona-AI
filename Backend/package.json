@@ -1,0 +1,15 @@
+{
+  "name": "ai-persona-agent",
+  "version": "1.0.0",
+  "description": "AI persona frontend and backend for Kshitij Mishra, Anshuman Singh, and Abhimanyu Saxena.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.4"
+  }
+}

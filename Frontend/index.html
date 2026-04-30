@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Persona Agent</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div>
+        <h1>AI Persona Agent</h1>
+        <p>Choose a persona, ask a question, and get a human-like response.</p>
+      </div>
+      <div class="persona-picker">
+        <button class="persona-btn active" data-persona="kshitij_mishra">Kshitij Mishra</button>
+        <button class="persona-btn" data-persona="anshuman_singh">Anshuman Singh</button>
+        <button class="persona-btn" data-persona="abhimanyu_saxena">Abhimanyu Saxena</button>
+      </div>
+    </header>
+
+    <main class="chat-panel">
+      <div id="chatLog" class="chat-log"></div>
+      <form id="messageForm" class="message-form">
+        <textarea id="messageInput" rows="3" placeholder="Ask your AI persona anything..."></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
