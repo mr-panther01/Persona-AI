@@ -85,7 +85,7 @@ function appendSystemMessage(text) {
 }
 
 async function sendMessageToBackend(message, persona) {
-  const response = await fetch('/api/respond', {
+  const response = await fetch('https://persona-ai-74ri.onrender.com/api/respond', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
